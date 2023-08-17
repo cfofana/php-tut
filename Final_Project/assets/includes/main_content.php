@@ -1,7 +1,9 @@
-<main>
+<main class="main-content">
         <div class="container">
             <section>
-                <div class="img-separator"></div>
+                <div class="img-separator">
+                    <img src="img/hr.png" alt="A decorative horizontal ruler">
+                </div>
                 <div class="main-info">
                     <h2>Franklin's Philosophy of fine dining</h2>
                     <p>Here at Franklin's, we know that good food isn't just about how
@@ -11,18 +13,20 @@
                     </p>
                     <p>Oh, and you can call us Frankie's. You're family here.</p>
                 </div>
-                <div class="img-separator"></div>
+                <div class="img-separator">
+                    <img src="img/hr.png" alt="A decorative horizontal ruler">
+                </div>
             </section>
-            <section class="contact">
-                <div>
+            <section class="contact-section">
+                <div class="phone">
                     <h3>Phone</h3>
                     <p>800.432.5542</p>
                 </div>
-                <div>
+                <div class="location">
                     <h3>Location</h3>
                     <p>145 Aldridge St, Honololu, HI</p>
                 </div>
-                <div>
+                <div class="hours">
                     <h3>Hours</h3>
                     <div>
                         <p class="italics-text">Tuesday - Thursday</p>
@@ -37,7 +41,7 @@
                         <p>Closed</p>
                     </div>
                     <div class="red-text">
-                        <p>Sorry, we're closed. Todays hours are 1:00pm until 9:00pm.</p>
+                        <p>Sorry, we're closed. Today's hours are 1:00pm until 9:00pm.</p>
                     </div>
                     
                 </div>

@@ -10,13 +10,13 @@
 <body>
     <header>
         <div class="container">
-            <nav>
-                <?php include("assets/includes/nav.php"); ?>
-            </nav>
             <div class="hero">
                 <a href="index.php">
                     <img src="img/banner.png" alt="Hero image to return to homepage">
                 </a>
             </div>
+            <nav class="main-nav">
+                <?php include("assets/includes/nav.php"); ?>
+            </nav>
         </div>
     </header>
