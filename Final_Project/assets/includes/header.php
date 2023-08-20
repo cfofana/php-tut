@@ -17,6 +17,7 @@
             </div>
             <nav class="main-nav">
                 <?php include("assets/includes/nav.php"); ?>
+                <?php include("assets/includes/nav2.php"); ?>
             </nav>
         </div>
     </header>
