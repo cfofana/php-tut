@@ -18,7 +18,7 @@
             ]
         ];
 
-        $nav_animals = [
+        $animals = [
                 [
                     slug => "animals.php",
                     title => "Animals"
@@ -37,7 +37,50 @@
                 ]
             ];
 
-        $nav_employees = [];
-        $nav_us_states = [];
-        $nav_countries = [];
+        $employees = [
+            [
+                name => "John",
+                title => "Manager"
+            ],
+            [
+                name => "Sally",
+                title => "Cook"
+            ],
+            [
+                name => "Jim",
+                title => "Owner"
+            ]
+        ];
+        $us_states = [
+            [
+                name => "North Carolina",
+                abbr => "NC"
+            ],
+            [
+                name => "Massachusetts",
+                abbr => "MA"
+            ],
+            [
+                name => "Washington",
+                abbr => "WA"
+            ],
+            [
+                name => "Arkansas",
+                abbr => "AR"
+            ]
+        ];
+        $countries = [
+            [
+                name => "Gambia",
+                continent => "Africa"
+            ],
+            [
+                name => "Bulgaria",
+                continent => "Europe"
+            ],
+            [
+                name => "United States",
+                continent => "USA"
+            ]
+        ];
 ?>
