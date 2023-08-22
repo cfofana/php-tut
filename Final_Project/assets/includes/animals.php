@@ -1,6 +1,6 @@
 <ul>
     <?php 
-        foreach($nav_animals as $animal){
+        foreach($animals as $animal){
             echo "<li>$animal[title]</li>";
         }
     ?>

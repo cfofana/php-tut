@@ -17,6 +17,11 @@
                     <img src="img/hr.png" alt="A decorative horizontal ruler">
                 </div>
             </section>
+
+
+<?php include("assets/includes/employees.php"); ?>
+
+
             <section class="contact-section">
                 <div class="phone">
                     <h3>Phone</h3>
