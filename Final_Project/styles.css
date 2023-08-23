@@ -41,7 +41,7 @@ body {
 .contact-section {
     margin-top: 100px;
 }
-.phone {
+/* .phone {
     display: inline-block;
     width: 30%;
 }
@@ -53,13 +53,10 @@ body {
     display: inline-block;
     width: 30%;
     vertical-align: top;
-}
-.italics-text {
-    font-style: italic;
-}
-.red-text {
-    color: rgb(255, 0, 0);
-}
+} */
+
+
 footer {
     text-align: center;
+    margin-top: 130px;
 }

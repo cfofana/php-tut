@@ -24,7 +24,8 @@
             color: rgb(255, 0, 0);
         }
         .open {
-            color: blue;
+            color: green;
+            font-weight: bold;
         }
         </style>
     </head>
@@ -62,7 +63,7 @@
     // Do not include the year if the exception repeats annually
     $exceptions = array(
         '12/25'  => array(' '),
-        '01/01' => array(' ')
+        '01/01' => array(' '),
     );
 
     $config = array(
@@ -78,8 +79,14 @@
     // Display open / closed message
     if($store_hours->is_open()) {
         echo "<span class='open'>Yes, we're open!</span> Today's hours are " . $store_hours->hours_today() . ".";
-    } else {
-        echo "<p class='closed'>Sorry, we're closed. Today's hours are " . $store_hours->hours_today() . ".</p>";
+    } else { //Sorry, we're closed for holidays. 
+        //echo "<p class='closed'>Sorry, we're closed. Today's hours are " . $store_hours->hours_today() . ".</p>";
+        if($store_hours->hours_today() == "" || $store_hours->hours_today() == " "){
+            echo "<p class='closed'>Sorry, we're closed.</p>";
+        } else {
+            echo "<p class='closed'>Sorry, we're closed. Today's hours are " . $store_hours->hours_today() . ".</p>";
+
+        }
     }
 
     // Display full list of open hours (for a week without exceptions)
