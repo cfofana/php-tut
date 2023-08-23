@@ -1,5 +1,5 @@
 <footer>
-        <p>&copy; <?php echo date('Y'); ?> <a href="#">Franklin's Fine Dining</a></p>
+        <p>&copy; <?php echo date('F j, Y'); ?> <a href="#"> <?php echo $company_name; ?></a></p>
         <div class="copyright-info">
             <?php 
                 include("../assets/includes/copyright.php");

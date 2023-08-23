@@ -2,7 +2,7 @@
         <div class="container">
             <section>
                 <div class="img-separator">
-                    <img src="img/hr.png" alt="A decorative horizontal ruler">
+                    <img src="assets/img/hr.png" alt="A decorative horizontal ruler">
                 </div>
                 <div class="main-info">
                     <h2>Franklin's Philosophy of fine dining</h2>
@@ -14,15 +14,13 @@
                     <p>Oh, and you can call us Frankie's. You're family here.</p>
                 </div>
                 <div class="img-separator">
-                    <img src="img/hr.png" alt="A decorative horizontal ruler">
+                    <img src="assets/img/hr.png" alt="A decorative horizontal ruler">
                 </div>
             </section>
 
+<?php include("assets/includes/store-hours/index.php") ?>
 
-<?php include("assets/includes/employees.php"); ?>
-
-
-            <section class="contact-section">
+            <!-- <section class="contact-section">
                 <div class="phone">
                     <h3>Phone</h3>
                     <p>800.432.5542</p>
@@ -51,6 +49,6 @@
                     
                 </div>
 
-            </section>
+            </section> -->
         </div>
     </main>
