@@ -25,7 +25,6 @@
 
     <body>
 
-    <h1>Gadgets Inc.</h1>
     <h2>Store Hours</h2>
 
     <?php

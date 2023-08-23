@@ -15,7 +15,7 @@
         <div class="container">
             <div class="hero">
                 <a href="index.php">
-                    <img src="img/banner.png" alt="Hero image to return to homepage">
+                    <img src="assets/img/banner.png" alt="Hero image to return to homepage">
                 </a>
             </div>
             <nav class="main-nav">
