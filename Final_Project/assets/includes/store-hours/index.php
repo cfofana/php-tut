@@ -20,6 +20,12 @@
             padding: 2px 8px;
             border: 1px solid #ccc;
         }
+        .closed {
+            color: rgb(255, 0, 0);
+        }
+        .open {
+            color: blue;
+        }
         </style>
     </head>
 
@@ -41,13 +47,13 @@
     // If closed for the day, leave blank (ex. sunday)
     // If open multiple times in one day, enter time ranges separated by a comma
     $hours = array(
-        'mon' => array(''),
+        'mon' => array(' '),
         'tue' => array('13:00-21:00'),
         'wed' => array('13:00-21:00'),
         'thu' => array('13:00-21:00'), 
         'fri' => array('16:00-23:00'),
         'sat' => array('16:00-23:00'),
-        'sun' => array('')
+        'sun' => array(' ')
     );
 
     // OPTIONAL
@@ -55,8 +61,8 @@
     // MUST be in a format month/day[/year] or [year-]month-day
     // Do not include the year if the exception repeats annually
     $exceptions = array(
-        '12/25'  => array('11:00-18:00'),
-        '01/01' => array('')
+        '12/25'  => array(' '),
+        '01/01' => array(' ')
     );
 
     $config = array(
@@ -71,9 +77,9 @@
     
     // Display open / closed message
     if($store_hours->is_open()) {
-        echo "Yes, we're open! Today's hours are " . $store_hours->hours_today() . ".";
+        echo "<span class='open'>Yes, we're open!</span> Today's hours are " . $store_hours->hours_today() . ".";
     } else {
-        echo "Sorry, we're closed. Today's hours are " . $store_hours->hours_today() . ".";
+        echo "<p class='closed'>Sorry, we're closed. Today's hours are " . $store_hours->hours_today() . ".</p>";
     }
 
     // Display full list of open hours (for a week without exceptions)
