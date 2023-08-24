@@ -9,9 +9,10 @@
         body {
             font-family: 'Helvetica Neue', arial;
             text-align: center;
+            font-size: 24px;
         }
         table {
-            font-size: small;
+            font-size: 24px;
             text-align: left;
             margin: 100px auto 0 auto;
             border-collapse: collapse;
@@ -70,7 +71,7 @@
         'separator'      => ' - ',
         'join'           => ' and ',
         'format'         => 'g:ia',
-        'overview_weekdays'  => array('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
+        'overview_weekdays'  => array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
     );
 
     // Instantiate class

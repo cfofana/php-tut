@@ -7,8 +7,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP | Final Project</title>
-    <link rel="stylesheet" href="styles.css">
+    <title><?php echo TITLE; ?></title>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
     <header>
@@ -20,7 +20,6 @@
             </div>
             <nav class="main-nav">
                 <?php include("assets/includes/nav.php"); ?>
-                <?php include("assets/includes/animals.php"); ?>
             </nav>
         </div>
     </header>

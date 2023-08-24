@@ -1,5 +1,6 @@
 body {
-    background-image: url("assets/img/bg.jpg");
+    background-image: url("../assets/img/bg.jpg");
+    font-size: 24px;
 }
 .container {
     width: 80%;
@@ -41,6 +42,28 @@ body {
 .contact-section {
     margin-top: 100px;
 }
+.team-members {
+    margin-bottom: 40px;
+}
+.team-member {
+    margin-bottom: 200px;
+}
+.team-member .img {
+    float: left;
+    margin-right: 40px;
+}
+.team-member .name {
+
+}
+.team-member .position {
+
+}
+.team-member .bio {
+}
+.clearfix {
+    clear: both;
+}
+
 /* .phone {
     display: inline-block;
     width: 30%;
