@@ -1,4 +1,6 @@
 <?php 
+
+    /////     MAIN NAVIGATION MENU     /////
     $nav_items = [
         [ 
             slug => "index.php",
@@ -18,25 +20,8 @@
             ]
         ];
 
-        $animals = [
-                [
-                    slug => "animals.php",
-                    title => "Animals"
-                ],
-                [
-                    slug => "giraffe.php",
-                    title => "Giraffe"
-                ],
-                [
-                    slug => "rabbit.php",
-                    title => "Rabbit"
-                ],
-                [
-                    slug => "sheep.php",
-                    title => "Sheep"
-                ]
-            ];
-
+        
+        /////     EMPLOYEES     /////
         $employees = [
             [
                 name => "Frankie III",
@@ -60,6 +45,57 @@
                 img => "carlos"
             ]
         ];
+
+        /////     MENU ITEMS     /////
+        $food_menu_items = [
+            "club_sandwich" => [
+                title => "Club Sandwich",
+                price => 11,
+                blurb => "Bacon ipsum dolor amet corned beef hamburger shoulder, flank ball tip brisket boudin ground round meatloaf fatback. Short ribs tri-tip pork ground round pancetta. Tongue bresaola burgdoggen, t-bone",
+                drink => "Club Soda"
+            ],
+            "dill_salmon" => [
+                title => "Lemon &amp; Dill Salmon",
+                price => 18,
+                blurb => "Alcatra chislic beef ribs pancetta. Ham hock beef meatball capicola brisket pork shankle pastrami. Ke",
+                drink => "Fancy wine"
+            ],
+            "super_salad" => [
+                title => "The Super Salad<sup>&reg;</sup>",
+                price => 34,
+                blurb => "Indian spiced Sicilian pistachio pesto scotch bonnet pepper sweet potato black bean burrito chocolate peanut butter dip ",
+                drink => "Jug O' Water"
+            ],
+            "mexican_barbacoa" => [
+                title => "Mexican Barbacoa",
+                price => 23,
+                blurb => "Tri-tip capicola ball tip cow corned beef salami. Bacon pancetta pork belly, pork drumstick ball tip jowl frankfurter short loin",
+                drink => "Beer with a lime"
+            ]
+        ];
+
+
+
+
+        $animals = [
+            [
+                slug => "animals.php",
+                title => "Animals"
+            ],
+            [
+                slug => "giraffe.php",
+                title => "Giraffe"
+            ],
+            [
+                slug => "rabbit.php",
+                title => "Rabbit"
+            ],
+            [
+                slug => "sheep.php",
+                title => "Sheep"
+            ]
+        ];
+
         $us_states = [
             [
                 name => "North Carolina",
