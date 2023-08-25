@@ -76,4 +76,8 @@ footer {
 .back-to-menu-btn {
     padding: 10px 30px;
     text-align: left;
+    display: block;
+}
+.back-to-menu-btn a {
+    text-decoration: none;;
 }
