@@ -22,8 +22,8 @@
             <img src="assets/img/hr.png" alt="A decorative horizontal ruler">
         </div>
         <h1><?php echo $dish[title]; ?><span class="dish-price"><sup>$</sup><?php echo $dish[price]; ?></span></h1>
-        <p><?php echo $dish[blurb]; ?></p>
-        <p>Suggested beverage: <?php echo $dish[drink]; ?></p>
+        <p class="dish-blurb"><?php echo $dish[blurb]; ?></p>
+        <p><strong>Suggested beverage: <?php echo $dish[drink]; ?></strong></p>
         <p>Suggested Tips:</p>
         <p><?php echo calcSuggestedTip($dish[price], 0.20); ?></p>
         <p><?php echo calcSuggestedTip($dish[price], 0.15); ?></p>
@@ -31,7 +31,7 @@
         <div class="img-separator">
             <img src="assets/img/hr.png" alt="A decorative horizontal ruler">
         </div>  
-        <button class="back-to-menu-btn"><a href="menu.php">Back to Menu</a></button>
+        <button class="back-to-menu-btn"><a href="menu.php">&laquo; Back to Menu</a></button>
     </div>
 </div>
 

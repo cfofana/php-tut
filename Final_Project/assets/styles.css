@@ -73,6 +73,10 @@ footer {
 .dish {
     text-align: center;
 }
+.dish-blurb {
+    width: 50%;
+    margin: 0 auto;
+}
 .back-to-menu-btn {
     padding: 10px 30px;
     text-align: left;
