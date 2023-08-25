@@ -64,22 +64,16 @@ body {
     clear: both;
 }
 
-/* .phone {
-    display: inline-block;
-    width: 30%;
-}
-.location {
-    display: inline-block;
-    width: 30%;
-}
-.hours {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-} */
-
 
 footer {
     text-align: center;
     margin-top: 130px;
+}
+
+.dish {
+    text-align: center;
+}
+.back-to-menu-btn {
+    padding: 10px 30px;
+    text-align: left;
 }
