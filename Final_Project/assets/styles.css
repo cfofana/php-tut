@@ -85,3 +85,38 @@ footer {
 .back-to-menu-btn a {
     text-decoration: none;;
 }
+
+.contact-form {
+    text-align: center;
+}
+.contact-form h1 {
+    color: rgb(30, 79, 30);
+}
+.contact-form form {
+    width: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+.contact-form label {
+    text-align: left;
+}
+.contact-form input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    font-size: 24px;
+}
+.contact-form input[type="checkbox"] {
+    width: auto;
+}
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.btn-submit {
+    color: white;
+    background-color:rgb(30, 79, 30);
+    width: 100%;
+    padding: 10px 0;
+}
